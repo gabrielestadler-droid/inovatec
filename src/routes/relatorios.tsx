@@ -1,6 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { FileSpreadsheet, Printer, History } from "lucide-react";
-import { AppShell, Card, StatusPill, btnPrimary, btnGhost } from "@/components/AppShell";
+import { Card, StatusPill, btnPrimary, btnGhost } from "@/components/AppShell";
+import { AppShell } from "@/components/AppShell";
 import { useEscola, formatarData, TIPOS_DOCUMENTO } from "@/lib/school-store";
 
 export const Route = createFileRoute("/relatorios")({
